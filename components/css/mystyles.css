@@ -326,7 +326,16 @@ p {
 
 
 
-
+.custom_list li{
+	font-size: 18px;
+	line-height: 1.4em;
+	font-weight: 300;
+	list-style-type: circle;
+	clear: both;
+}
+.custom_list {
+	clear: both; 
+}
 
 
 
@@ -359,7 +368,7 @@ p {
 			}
 	/*Content on main page*/
 		.content_container{ padding: 0;  }
-	/*Second Page*/
+	/*Secondary Pages*/
 		.screen_img { padding: 0; margin: 0 ; width: 121px; }
 		.promo_img_container { position: relative; float: left; margin-right: 10px; }
 		.p2_content { padding: 20px 10px; }
@@ -367,6 +376,10 @@ p {
 		.bacground_shape_page1 { width: 200px; bottom: 0; }
 		.scroll_div { display: none;}
 		.p2_p { font-size: 14px; }
+		.custom_list li{ font-size: 14px; }
+			
+			
+		
 	/*Modal */
 		.modal .modal-content {
 		    padding: 10px;
@@ -374,6 +387,7 @@ p {
 		.contact-heading {
 		    font-size: 14px;
 		}
+
 }
 
 /* Smartphones (portrait) ----------- */
@@ -390,6 +404,7 @@ p {
 		.bacground_shape_page1 { width: 200px; bottom: 0; }
 		.scroll_div { display: none;}
 		.p2_p { font-size: 14px; }
+		.custom_list li{ font-size: 14px; }
 	/*Social Box */
 		.mobile-social-bar { position: fixed; bottom: 0px; width: 100%; height: 50px; z-index: 999; }
 		.box-mobile {
@@ -491,6 +506,7 @@ iPad 3
 		bottom: 100px;
 		left: 200px;
 	}
+	.p2_h2 { padding: 7px 0; }
 
 }
 
