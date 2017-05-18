@@ -149,7 +149,7 @@ p {
 	right: 50px;
 	width: 200px;
 	height: 50px;
-	z-index: 9999;
+	z-index: 999;
 }
 .social img {
 	
@@ -198,7 +198,7 @@ p {
 .box img,
 .box1 img{
 	
-	/*position: absolute;*/
+	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
@@ -297,6 +297,9 @@ p {
 
 
 /*MODAL*/
+	#modal-content1 {
+		z-index: 1015;
+	}
 	.contact-info {
 		
 	}
@@ -335,6 +338,29 @@ p {
 }
 .custom_list {
 	clear: both; 
+}
+.my_slider {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.unslider-fade .unslider-wrap li  {
+	
+	display: flex;
+  	align-items: center;
+  	
+}
+
+.test1 {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	width: 30%;
+	float: left;
+}
+
+.unslider-nav {
+	display: none;
 }
 
 
@@ -377,12 +403,13 @@ p {
 		.scroll_div { display: none;}
 		.p2_p { font-size: 14px; }
 		.custom_list li{ font-size: 14px; }
-			
-			
+		.lp_heading { font-size: 24px; text-align: left; margin: 0; }	
+		.lp_caption { font-size: 14px; padding: 0; }	
 		
 	/*Modal */
 		.modal .modal-content {
 		    padding: 10px;
+		    
 		}
 		.contact-heading {
 		    font-size: 14px;
@@ -395,7 +422,7 @@ p {
 /* Styles */
 	/*General*/
 		.content_container { padding: 0; }
-		.lp_heading { font-size: 24px; text-align: center; margin: 0; }
+		.lp_heading { font-size: 24px; text-align: left; margin: 0; }
 		.shape1 { display: none; }
 		.screen_img { padding: 0; margin: 0 ; width: 121px; }
 		.promo_img_container { position: relative; float: left; margin-right: 10px; }
@@ -405,6 +432,7 @@ p {
 		.scroll_div { display: none;}
 		.p2_p { font-size: 14px; }
 		.custom_list li{ font-size: 14px; }
+		.lp_caption { font-size: 14px; padding: 0; }
 	/*Social Box */
 		.mobile-social-bar { position: fixed; bottom: 0px; width: 100%; height: 50px; z-index: 999; }
 		.box-mobile {
@@ -480,32 +508,8 @@ iPad 3
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
 /* Styles */
-	.shape1 {
-		bottom: 50px;
-		right:  20%;
-		position: absolute;
-	}
-	.cross{
-		bottom: -0px;
-		right: 50px;
-		width: 500px;
-		overflow: hidden;
-		opacity: 0.5;
-	}
 
-	.triangle {
-		top: 50px;
-		left: 500px;
-		width: 300px;
-	}
-
-	.modal1 {
-		z-index: 9999;
-	}
-	.shape2 {
-		bottom: 100px;
-		left: 200px;
-	}
+	
 	.p2_h2 { padding: 7px 0; }
 
 }
@@ -514,57 +518,16 @@ iPad 3
 @media only screen  and (min-width : 1824px) {
 /* Styles */
 
-.shape {
-	position: absolute;
-	z-index: 10;
-}
 .shape1 {
 	bottom: 50px;
 	right:  20%;
 	position: absolute;
 }
-.cross{
-	bottom: 100px;
-	right: 200px;
-}
 
-.triangle {
-	top: 150px;
-	left: 700px;
-}
-
-.modal1 {
-	z-index: 9999;
-}
-.shape2 {
-	bottom: 100px;
-	left: 300px;
-}
 
 
 }
-.my_slider {
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-}
-.unslider-fade .unslider-wrap li  {
-	
-	display: flex;
-  	align-items: center;
-  	/*justify-content: center;*/
-}
 
-.test1 {
-	display: flex;
-  	align-items: center;
-  	justify-content: center;
-	width: 30%;
-	float: left;
-}
 
-.unslider-nav {
-	display: none;
-}
 
 
